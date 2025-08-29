@@ -1,0 +1,12 @@
+seccion,metro,valor,notas
+columnas_tipos,location,object,
+columnas_tipos,date,object,
+columnas_tipos,new_cases,float64,
+columnas_tipos,people_vaccinated,float64,
+columnas_tipos,population,float64,
+resumen,min_new_cases,0.0,
+resumen,max_new_cases,59470.0,
+resumen,pct_missing_new_cases,1.208313194780087,%
+resumen,pct_missing_people_vaccinated,60.94731754470759,%
+resumen,min_date,2020-01-01,
+resumen,max_date,2025-12-28,
