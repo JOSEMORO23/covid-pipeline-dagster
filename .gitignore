@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+
+# Dagster & notebooks
+*.dagster*
+.ipynb_checkpoints/
+
+# Datos/artefactos pesados (no subir)
+notebooks/*.csv
+storage/
+.tmp_dagster_home_*/
+*.parquet
+*.duckdb
+
+# Reportes binarios generados (mejor no subir)
+reports/*.xlsx
+
+# Permitir reports de texto/CSV si quieres
+!reports/*.csv
